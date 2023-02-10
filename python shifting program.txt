@@ -1,0 +1,10 @@
+alpha='abcdefghijklmnopqrstuvwxyz'
+i ='india'
+a=0
+t=' '
+t=t+(alpha[(((alpha.index(i[a]))+1)%26)])
+t=t+(alpha[(((alpha.index(i[a+1]))+1)%26)])
+t=t+(alpha[(((alpha.index(i[a+2]))+1)%26)])
+t=t+(alpha[(((alpha.index(i[a+3]))+1)%26)])
+t=t+(alpha[(((alpha.index(i[a+4]))+1)%26)])
+print(t)
